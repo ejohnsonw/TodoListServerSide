@@ -12,8 +12,8 @@ USE TodoList;
     `order` INT(10),
     `title` VARCHAR(255),
     `todo_id` bigint(20) NOT NULL,
-    KEY `FK1464811044800` (`todo_id`),
-    CONSTRAINT `FK1464811044800` FOREIGN KEY (`todo_id`) REFERENCES `TodoItem` (`id`),
+    KEY `FK1464811490110` (`todo_id`),
+    CONSTRAINT `FK1464811490110` FOREIGN KEY (`todo_id`) REFERENCES `TodoItem` (`id`),
     PRIMARY KEY (`id`)
  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
  
@@ -24,10 +24,10 @@ USE TodoList;
     `status_id` bigint(20) NOT NULL,
     `tasks_id` bigint(20) NOT NULL,
     `title` VARCHAR(255),
-    KEY `FK1464811044902` (`status_id`),
-    CONSTRAINT `FK1464811044902` FOREIGN KEY (`status_id`) REFERENCES `Status` (`id`),
-    KEY `FK1464811044902` (`tasks_id`),
-    CONSTRAINT `FK1464811044902` FOREIGN KEY (`tasks_id`) REFERENCES `Task` (`id`),
+    KEY `FK1464811490248` (`status_id`),
+    CONSTRAINT `FK1464811490248` FOREIGN KEY (`status_id`) REFERENCES `Status` (`id`),
+    KEY `FK1464811490249` (`tasks_id`),
+    CONSTRAINT `FK1464811490249` FOREIGN KEY (`tasks_id`) REFERENCES `Task` (`id`),
     PRIMARY KEY (`id`)
  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
  
