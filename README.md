@@ -7,6 +7,21 @@ Engineered with [Kitura-REST](https://www.generatron.com/#/generatron/Kitura-RES
 
 ## Installing and Running
 
+
+1. Install the [05-03-DEVELOPMENT Swift toolchain](https://swift.org/download/) 
+
+2. Install Kitura dependencies:
+
+  1. Mac OS X: 
+  
+    `brew install curl`
+  
+  2. Linux (Ubuntu 15.10):
+   
+    `sudo apt-get install libcurl4-openssl-dev`
+    
+
+
 1. Database
 
   1. Create a MySQL database named TodoList
