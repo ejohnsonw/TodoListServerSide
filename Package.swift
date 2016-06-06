@@ -35,8 +35,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 0),
-        .Package(url: "https://github.com/IBM-Swift/HeliumLogger.git", majorVersion: 0),
+        .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 0, minorVersion:13),
+        .Package(url: "https://github.com/IBM-Swift/HeliumLogger.git", majorVersion: 0,minorVersion:7),
         .Package(url: "https://github.com/IBM-Swift/LoggerAPI.git", majorVersion: 0),
         .Package(url: "https://github.com/IBM-Swift/Swift-cfenv.git", majorVersion: 1),
         .Package(url: "https://github.com/ejohnsonw/Perfect-MySQL.git", majorVersion: 0)
@@ -46,5 +46,5 @@ let package = Package(
 /* 
 [STATS]
 It would take a person typing  @ 100.0 cpm, 
-approximately 6.99 minutes to type the 699+ characters in this file.
+approximately 7.31 minutes to type the 731+ characters in this file.
  */
